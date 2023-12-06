@@ -1,0 +1,249 @@
+/* website Candy CSS */
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.masthead {
+    padding: 15rem 0;
+    background: url(img/bg-candy.jpg);
+    color: #fff;
+    text-align: center;
+}
+
+.masthead h1 {
+    font-size: 2.5rem;
+}
+
+.masthead p {
+    font-size: 1.25rem;
+}
+
+.page-section {
+    padding: 4rem 0;
+}
+
+.bg-pink {
+    background-color: hotpink;
+}
+
+/* Custom styling for the navigation bar */
+.navbar {
+    transition: background-color 0.5s ease;
+}
+
+/* Styling for the toggler button */
+.navbar-toggler {
+    background-color: #fff; /* Set to white */
+}
+
+/* Styling for the navigation links */
+.navbar-nav .nav-link {
+    color: #fff; /* Set to white */
+}
+
+/* Additional style for the navigation bar when scrolled */
+.navbar.scrolled {
+    background-color: pink !important;
+}
+
+.btn-primary {
+    background-color: hotpink;
+    border-color: hotpink;
+}
+
+.btn-primary:hover {
+    background-color: hotpink;
+    border-color: hotpink;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.small {
+    font-size: 0.875rem;
+}
+
+.text-white-50 {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+main {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+.img-fluid {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img-thumbnail {
+    border-radius: 8px;
+ }
+
+ .table td,
+ .table th {
+    text-align: center;
+    vertical-align: middle;
+ }
+
+ .table img {
+    display: block;
+    margin: 0 auto;
+ }
+
+
+footer {
+    background-color: hotpink;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 1.5rem;
+}
+
+/* Slides Candy Shop */
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio (9 / 16 * 100) */
+    margin-bottom: 20px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex: 1;
+    max-width: 400px;
+    margin-top: 4rem;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form form input, textarea {
+    width: 400px;
+    padding: 14px;
+    margin-bottom: 10px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    background: white;
+}
+.contact-form form textarea {
+    resize: none;
+    height: 200px;
+}
+.form-section form .btn {
+    font-weight: 500;
+    color: #fff;
+    background: hotpink;
+    cursor: pointer;
+}
+.form-section form .btn:hover {
+    background: red;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    flex: 1;
+    max-width: 300px;
+}
+
+.contact-info h2 {
+    color: #343a40;
+}
+
+.contact-info p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.social-icons i {
+    font-size: 30px;
+    color: hotpink;
+    margin-right: 15px;
+}
+
+.form-section {
+    flex: 1;
+    max-width: 400px;
+}
+
+.form-section h2 {
+    color: #343a40;
+}
+
+.form-section form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.form-section label {
+    font-weight: bold;
+}
+
+.form-section .btn-primary {
+    background-color: hotpink;
+    border-color: hotpink;
+    font-weight: 500;
+}
+
+.form-section .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+
+@media  screen and (max-width: 800px) {
+    .wrapper {
+        width: 90%;
+    }
+}
